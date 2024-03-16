@@ -1,0 +1,1890 @@
+---> int main(int, char**) /media/Infinity/dev/BasicGames/b2c/b2c.cpp[2104]
+    Opened input file
+    Opened vars file
+    Parsing ...
+    Processing line 1!
+    (LEX)TK_Integer=1000 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"DO YOU WANT INSTRUCTIONS :"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="DO YOU WANT INSTRUCTIONS :"
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Processing line 2!
+    (LEX)TK_Integer=1010 YYSTATE=0
+    (LEX)TK_Input='INPUT'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=A$
+    (normal)basiclval.stype='A$'
+    Processing line 3!
+    (LEX)TK_Integer=1020 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=MID$
+    (normal)basiclval.stype='MID$'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=A$
+    (normal)basiclval.stype='A$'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x44','
+    (LEX)TK_Integer=1 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x44','
+    (LEX)TK_Integer=1 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_QuoteString='"N"'
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1220 YYSTATE=3
+    Processing line 4!
+    (LEX)TK_Integer=1030 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=MID$
+    (normal)basiclval.stype='MID$'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=A$
+    (normal)basiclval.stype='A$'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x44','
+    (LEX)TK_Integer=1 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x44','
+    (LEX)TK_Integer=1 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_QuoteString='"n"'
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1220 YYSTATE=3
+    Processing line 5!
+    (LEX)TK_Integer=1040 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 6!
+    (LEX)TK_Integer=1050 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 7!
+    (LEX)TK_Integer=1060 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"    This is the game of RABBIT.  The object of RABBIT is"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="    This is the game of RABBIT.  The object of RABBIT is"
+    Processing line 8!
+    (LEX)TK_Integer=1070 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"to come within a certian distance of the computer controlled"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="to come within a certian distance of the computer controlled"
+    Processing line 9!
+    (LEX)TK_Integer=1080 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"rabbit, which also moves.  "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="rabbit, which also moves.  "
+    Processing line 10!
+    (LEX)TK_Integer=1090 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"    The way you do this is to hop around (the rabbit hops too) "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="    The way you do this is to hop around (the rabbit hops too) "
+    Processing line 11!
+    (LEX)TK_Integer=1100 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"such that your path crosses the rabbit's path at the same time"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="such that your path crosses the rabbit's path at the same time"
+    Processing line 12!
+    (LEX)TK_Integer=1110 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"Or in other words you come close enough to grab the little "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="Or in other words you come close enough to grab the little "
+    Processing line 13!
+    (LEX)TK_Integer=1120 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"booger.  "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="booger.  "
+    Processing line 14!
+    (LEX)TK_Integer=1130 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"    Oh by the way your arms are about 20 units long.  The number"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="    Oh by the way your arms are about 20 units long.  The number"
+    Processing line 15!
+    (LEX)TK_Integer=1140 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"'CLOSEST APPROACH' is the closest distance you and your bouncy"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="'CLOSEST APPROACH' is the closest distance you and your bouncy"
+    Processing line 16!
+    (LEX)TK_Integer=1150 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"friend came to each other during the last hop.  The 'DISTANCE"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="friend came to each other during the last hop.  The 'DISTANCE"
+    Processing line 17!
+    (LEX)TK_Integer=1160 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"TO RABBIT' is the distance you are from the rabbit now.  The"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="TO RABBIT' is the distance you are from the rabbit now.  The"
+    Processing line 18!
+    (LEX)TK_Integer=1170 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"rabbits 'DIRECTION' is the direction he is just about to hop,"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="rabbits 'DIRECTION' is the direction he is just about to hop,"
+    Processing line 19!
+    (LEX)TK_Integer=1180 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"so keep that in mind when jumping.  The computer will prompt"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="so keep that in mind when jumping.  The computer will prompt"
+    Processing line 20!
+    (LEX)TK_Integer=1190 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"you for the direction you want to jump next.  Remember "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="you for the direction you want to jump next.  Remember "
+    Processing line 21!
+    (LEX)TK_Integer=1200 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"you and the rabbit don't necessarily jump at the same velocity."'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="you and the rabbit don't necessarily jump at the same velocity."
+    Processing line 22!
+    (LEX)TK_Integer=1210 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"   GOOD LUCK"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="   GOOD LUCK"
+    Processing line 23!
+    (LEX)TK_Integer=1220 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 24!
+    (LEX)TK_Integer=1230 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"                   TYPE 'QUIT' TO STOP."'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="                   TYPE 'QUIT' TO STOP."
+    Processing line 25!
+    (LEX)TK_Integer=1240 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 26!
+    (LEX)TK_Integer=1250 YYSTATE=0
+    (LEX)TK_Randomize='RANDOMIZE'
+    Processing line 27!
+    (LEX)TK_Integer=1260 YYSTATE=0
+    Processing line 28!
+    (LEX)TK_Integer=1270 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=T
+    (normal)basiclval.stype='T'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=400 YYSTATE=3
+    Processing line 29!
+    (LEX)TK_Integer=1280 YYSTATE=0
+    Processing line 30!
+    (LEX)TK_Integer=1290 YYSTATE=0
+    Processing line 31!
+    (LEX)TK_Integer=1300 YYSTATE=0
+    Processing line 32!
+    (LEX)TK_Integer=1310 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=V1
+    (normal)basiclval.stype='V1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=INT
+    (normal)basiclval.stype='INT'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=RND
+    (normal)basiclval.stype='RND'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    (LEX)TK_Integer=0 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x42'*'
+    (LEX)TK_Integer=10 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    (LEX)TK_Float=0.5
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x42'*'
+    (LEX)TK_Integer=10 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    (LEX)TK_Integer=50 YYSTATE=3
+    Processing line 33!
+    (LEX)TK_Integer=1320 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=V2
+    (normal)basiclval.stype='V2'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=INT
+    (normal)basiclval.stype='INT'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=RND
+    (normal)basiclval.stype='RND'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    (LEX)TK_Integer=0 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x42'*'
+    (LEX)TK_Integer=2 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    (LEX)TK_Float=0.5
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    (LEX)TK_Integer=1 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x42'*'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=V1
+    (normal)basiclval.stype='V1'
+    Processing line 34!
+    (LEX)TK_Integer=1330 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=X1
+    (normal)basiclval.stype='X1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=INT
+    (normal)basiclval.stype='INT'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=RND
+    (normal)basiclval.stype='RND'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    (LEX)TK_Integer=0 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x42'*'
+    (LEX)TK_Integer=400 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    (LEX)TK_Integer=100 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x42'*'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=SGN
+    (normal)basiclval.stype='SGN'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=RND
+    (normal)basiclval.stype='RND'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    (LEX)TK_Integer=0 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    (LEX)TK_Float=0.5
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 35!
+    (LEX)TK_Integer=1340 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Y1
+    (normal)basiclval.stype='Y1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=INT
+    (normal)basiclval.stype='INT'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=RND
+    (normal)basiclval.stype='RND'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    (LEX)TK_Integer=0 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x42'*'
+    (LEX)TK_Integer=400 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    (LEX)TK_Integer=100 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x42'*'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=SGN
+    (normal)basiclval.stype='SGN'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=RND
+    (normal)basiclval.stype='RND'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    (LEX)TK_Integer=0 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    (LEX)TK_Float=0.5
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 36!
+    (LEX)TK_Integer=1350 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Y1
+    (normal)basiclval.stype='Y1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=0 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1330 YYSTATE=3
+    Processing line 37!
+    (LEX)TK_Integer=1360 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=X1
+    (normal)basiclval.stype='X1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=0 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1330 YYSTATE=3
+    Processing line 38!
+    (LEX)TK_Integer=1370 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=X2
+    (normal)basiclval.stype='X2'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=0 YYSTATE=3
+    Processing line 39!
+    (LEX)TK_Integer=1380 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Y2
+    (normal)basiclval.stype='Y2'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=0 YYSTATE=3
+    Processing line 40!
+    (LEX)TK_Integer=1390 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"SPEEDS (UNITS/HOP):"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="SPEEDS (UNITS/HOP):"
+    Processing line 41!
+    (LEX)TK_Integer=1400 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"RABBIT -"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="RABBIT -"
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    (LEX)TK_Name(PrintStmt)=V1
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x44','
+        printfield = 3
+        yytext     = '"YOU -"'
+        LastToken  = '44'
+    (LEX)TK_QuoteString(PRINTSTMT)="YOU -"
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    (LEX)TK_Name(PrintStmt)=V2
+    Processing line 42!
+    (LEX)TK_Integer=1410 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 43!
+    (LEX)TK_Integer=1420 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 44!
+    (LEX)TK_Integer=1430 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 45!
+    (LEX)TK_Integer=1440 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=C
+    (normal)basiclval.stype='C'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=X2
+    (normal)basiclval.stype='X2'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=X1
+    (normal)basiclval.stype='X1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x94'^'
+    (LEX)TK_Integer=2 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Y2
+    (normal)basiclval.stype='Y2'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Y1
+    (normal)basiclval.stype='Y1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x94'^'
+    (LEX)TK_Integer=2 YYSTATE=3
+    Processing line 46!
+    (LEX)TK_Integer=1450 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=P1
+    (normal)basiclval.stype='P1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Float=3.14159
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x47'/'
+    (LEX)TK_Integer=180 YYSTATE=3
+    Processing line 47!
+    (LEX)TK_Integer=1460 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=H1
+    (normal)basiclval.stype='H1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=1 YYSTATE=3
+    Processing line 48!
+    (LEX)TK_Integer=1470 YYSTATE=0
+    Processing line 49!
+    (LEX)TK_Integer=1480 YYSTATE=0
+    Processing line 50!
+    (LEX)TK_Integer=1490 YYSTATE=0
+    Processing line 51!
+    (LEX)TK_Integer=1500 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=D1
+    (normal)basiclval.stype='D1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=INT
+    (normal)basiclval.stype='INT'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=RND
+    (normal)basiclval.stype='RND'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    (LEX)TK_Integer=0 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x42'*'
+    (LEX)TK_Integer=359 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 52!
+    (LEX)TK_Integer=1510 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"HOP#: "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="HOP#: "
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Processing line 53!
+    (LEX)TK_Integer=1520 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Z
+    (normal)basiclval.stype='Z'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=H
+    (normal)basiclval.stype='H'
+    Processing line 54!
+    (LEX)TK_Integer=1530 YYSTATE=0
+    (LEX)TK_Gosub='GOSUB'
+    (LEX)TK_Integer=2330 YYSTATE=3
+    Processing line 55!
+    (LEX)TK_Integer=1540 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"    DISTANCE TO RABBIT: "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="    DISTANCE TO RABBIT: "
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Processing line 56!
+    (LEX)TK_Integer=1550 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Z
+    (normal)basiclval.stype='Z'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=SQR
+    (normal)basiclval.stype='SQR'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=X2
+    (normal)basiclval.stype='X2'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=X1
+    (normal)basiclval.stype='X1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x94'^'
+    (LEX)TK_Integer=2 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Y2
+    (normal)basiclval.stype='Y2'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Y1
+    (normal)basiclval.stype='Y1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x94'^'
+    (LEX)TK_Integer=2 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 57!
+    (LEX)TK_Integer=1560 YYSTATE=0
+    (LEX)TK_Gosub='GOSUB'
+    (LEX)TK_Integer=2330 YYSTATE=3
+    Processing line 58!
+    (LEX)TK_Integer=1570 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"    CLOSEST APPROACH: "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="    CLOSEST APPROACH: "
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Processing line 59!
+    (LEX)TK_Integer=1580 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Z
+    (normal)basiclval.stype='Z'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=SQR
+    (normal)basiclval.stype='SQR'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=C
+    (normal)basiclval.stype='C'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 60!
+    (LEX)TK_Integer=1590 YYSTATE=0
+    (LEX)TK_Gosub='GOSUB'
+    (LEX)TK_Integer=2330 YYSTATE=3
+    Processing line 61!
+    (LEX)TK_Integer=1600 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 62!
+    (LEX)TK_Integer=1610 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"RABBIT   ---    POSITION:  ("'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="RABBIT   ---    POSITION:  ("
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Processing line 63!
+    (LEX)TK_Integer=1620 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Z
+    (normal)basiclval.stype='Z'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=X1
+    (normal)basiclval.stype='X1'
+    Processing line 64!
+    (LEX)TK_Integer=1630 YYSTATE=0
+    (LEX)TK_Gosub='GOSUB'
+    (LEX)TK_Integer=2280 YYSTATE=3
+    Processing line 65!
+    (LEX)TK_Integer=1640 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '","'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)=","
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Processing line 66!
+    (LEX)TK_Integer=1650 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Z
+    (normal)basiclval.stype='Z'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Y1
+    (normal)basiclval.stype='Y1'
+    Processing line 67!
+    (LEX)TK_Integer=1660 YYSTATE=0
+    (LEX)TK_Gosub='GOSUB'
+    (LEX)TK_Integer=2280 YYSTATE=3
+    Processing line 68!
+    (LEX)TK_Integer=1670 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '")     AND DIRECTION:  "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)=")     AND DIRECTION:  "
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Processing line 69!
+    (LEX)TK_Integer=1680 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Z
+    (normal)basiclval.stype='Z'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=D1
+    (normal)basiclval.stype='D1'
+    Processing line 70!
+    (LEX)TK_Integer=1690 YYSTATE=0
+    (LEX)TK_Gosub='GOSUB'
+    (LEX)TK_Integer=2330 YYSTATE=3
+    Processing line 71!
+    (LEX)TK_Integer=1700 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 72!
+    (LEX)TK_Integer=1710 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"YOU      ---    POSITION:  ("'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="YOU      ---    POSITION:  ("
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Processing line 73!
+    (LEX)TK_Integer=1720 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Z
+    (normal)basiclval.stype='Z'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=X2
+    (normal)basiclval.stype='X2'
+    Processing line 74!
+    (LEX)TK_Integer=1730 YYSTATE=0
+    (LEX)TK_Gosub='GOSUB'
+    (LEX)TK_Integer=2280 YYSTATE=3
+    Processing line 75!
+    (LEX)TK_Integer=1740 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '","'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)=","
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Processing line 76!
+    (LEX)TK_Integer=1750 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Z
+    (normal)basiclval.stype='Z'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Y2
+    (normal)basiclval.stype='Y2'
+    Processing line 77!
+    (LEX)TK_Integer=1760 YYSTATE=0
+    (LEX)TK_Gosub='GOSUB'
+    (LEX)TK_Integer=2280 YYSTATE=3
+    Processing line 78!
+    (LEX)TK_Integer=1770 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '")     AND DIRECTION: "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)=")     AND DIRECTION: "
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Processing line 79!
+    (LEX)TK_Integer=1780 YYSTATE=0
+    (LEX)TK_Goto='GOTO'
+    (LEX)TK_Integer=1800 YYSTATE=3
+    Processing line 80!
+    (LEX)TK_Integer=1790 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '"DIRECTION TO HOP (0-359 DEGREES): "'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="DIRECTION TO HOP (0-359 DEGREES): "
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Processing line 81!
+    (LEX)TK_Integer=1800 YYSTATE=0
+    (LEX)TK_Input='INPUT'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=A$
+    (normal)basiclval.stype='A$'
+    Processing line 82!
+    (LEX)TK_Integer=1810 YYSTATE=0
+    (LEX)TK_Dim='DIM'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=A
+    (normal)basiclval.stype='A'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    (LEX)TK_Integer=15 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 83!
+    (LEX)TK_Integer=1820 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=A
+    (normal)basiclval.stype='A'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    (LEX)TK_Integer=1 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=A
+    (normal)basiclval.stype='A'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    (LEX)TK_Integer=2 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=A
+    (normal)basiclval.stype='A'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    (LEX)TK_Integer=3 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=A
+    (normal)basiclval.stype='A'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    (LEX)TK_Integer=4 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=A
+    (normal)basiclval.stype='A'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    (LEX)TK_Integer=5 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=D2
+    (normal)basiclval.stype='D2'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=0 YYSTATE=3
+    Processing line 84!
+    (LEX)TK_Integer=1830 YYSTATE=0
+    (LEX)TK_Change='CHANGE'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=A$
+    (normal)basiclval.stype='A$'
+    (LEX)TK_To='TO'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=A
+    (normal)basiclval.stype='A'
+    Processing line 85!
+    (LEX)TK_Integer=1840 YYSTATE=0
+    (LEX)TK_For='FOR'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=I
+    (normal)basiclval.stype='I'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=1 YYSTATE=3
+    (LEX)TK_To='TO'
+    (LEX)TK_Integer=15 YYSTATE=3
+    Processing line 86!
+    (LEX)TK_Integer=1850 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=A
+    (normal)basiclval.stype='A'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=I
+    (normal)basiclval.stype='I'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=0 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1910 YYSTATE=3
+    Processing line 87!
+    (LEX)TK_Integer=1859 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=A
+    (normal)basiclval.stype='A'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=I
+    (normal)basiclval.stype='I'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=113 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=2240 YYSTATE=3
+    Processing line 88!
+    (LEX)TK_Integer=1860 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=A
+    (normal)basiclval.stype='A'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=I
+    (normal)basiclval.stype='I'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=81 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=2240 YYSTATE=3
+    Processing line 89!
+    (LEX)TK_Integer=1870 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=A
+    (normal)basiclval.stype='A'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=I
+    (normal)basiclval.stype='I'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    (LEX)TK_Integer=48 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x60'<'
+    (LEX)TK_Integer=0 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1790 YYSTATE=3
+    Processing line 90!
+    (LEX)TK_Integer=1880 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=A
+    (normal)basiclval.stype='A'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=I
+    (normal)basiclval.stype='I'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    (LEX)TK_Integer=48 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x62'>'
+    (LEX)TK_Integer=9 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1790 YYSTATE=3
+    Processing line 91!
+    (LEX)TK_Integer=1890 YYSTATE=0
+    (LEX)TK_Next='NEXT'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=I
+    (normal)basiclval.stype='I'
+    Processing line 92!
+    (LEX)TK_Integer=1900 YYSTATE=0
+    (LEX)TK_Goto='GO TO'
+    (LEX)TK_Integer=1790 YYSTATE=3
+    Processing line 93!
+    (LEX)TK_Integer=1910 YYSTATE=0
+    (LEX)TK_For='FOR'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=J
+    (normal)basiclval.stype='J'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=1 YYSTATE=3
+    (LEX)TK_To='TO'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=I
+    (normal)basiclval.stype='I'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    (LEX)TK_Integer=1 YYSTATE=3
+    Processing line 94!
+    (LEX)TK_Integer=1920 YYSTATE=0
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=D2
+    (normal)basiclval.stype='D2'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=D2
+    (normal)basiclval.stype='D2'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=A
+    (normal)basiclval.stype='A'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=I
+    (normal)basiclval.stype='I'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=J
+    (normal)basiclval.stype='J'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    (LEX)TK_Integer=48 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x42'*'
+    (LEX)TK_Integer=10 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x94'^'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=J
+    (normal)basiclval.stype='J'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    (LEX)TK_Integer=1 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 95!
+    (LEX)TK_Integer=1930 YYSTATE=0
+    (LEX)TK_Next='NEXT'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=J
+    (normal)basiclval.stype='J'
+    Processing line 96!
+    (LEX)TK_Integer=1940 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=D2
+    (normal)basiclval.stype='D2'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x60'<'
+    (LEX)TK_Integer=0 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1790 YYSTATE=3
+    Processing line 97!
+    (LEX)TK_Integer=1950 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=D2
+    (normal)basiclval.stype='D2'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x62'>'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=360 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1790 YYSTATE=3
+    Processing line 98!
+    (LEX)TK_Integer=1960 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 99!
+    (LEX)TK_Integer=1970 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 100!
+    (LEX)TK_Integer=1980 YYSTATE=0
+    Processing line 101!
+    (LEX)TK_Integer=1990 YYSTATE=0
+    Processing line 102!
+    (LEX)TK_Integer=2000 YYSTATE=0
+    Processing line 103!
+    (LEX)TK_Integer=2010 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=X3
+    (normal)basiclval.stype='X3'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=V1
+    (normal)basiclval.stype='V1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x42'*'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=COS
+    (normal)basiclval.stype='COS'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=D1
+    (normal)basiclval.stype='D1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x42'*'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=P1
+    (normal)basiclval.stype='P1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x47'/'
+    (LEX)TK_Integer=100 YYSTATE=3
+    Processing line 104!
+    (LEX)TK_Integer=2020 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Y3
+    (normal)basiclval.stype='Y3'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=V1
+    (normal)basiclval.stype='V1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x42'*'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=SIN
+    (normal)basiclval.stype='SIN'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=D1
+    (normal)basiclval.stype='D1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x42'*'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=P1
+    (normal)basiclval.stype='P1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x47'/'
+    (LEX)TK_Integer=100 YYSTATE=3
+    Processing line 105!
+    (LEX)TK_Integer=2030 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=X4
+    (normal)basiclval.stype='X4'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=V2
+    (normal)basiclval.stype='V2'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x42'*'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=COS
+    (normal)basiclval.stype='COS'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=D2
+    (normal)basiclval.stype='D2'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x42'*'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=P1
+    (normal)basiclval.stype='P1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x47'/'
+    (LEX)TK_Integer=100 YYSTATE=3
+    Processing line 106!
+    (LEX)TK_Integer=2040 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Y4
+    (normal)basiclval.stype='Y4'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=V2
+    (normal)basiclval.stype='V2'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x42'*'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=SIN
+    (normal)basiclval.stype='SIN'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=D2
+    (normal)basiclval.stype='D2'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x42'*'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=P1
+    (normal)basiclval.stype='P1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x47'/'
+    (LEX)TK_Integer=100 YYSTATE=3
+    Processing line 107!
+    (LEX)TK_Integer=2050 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=C
+    (normal)basiclval.stype='C'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=X2
+    (normal)basiclval.stype='X2'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=X1
+    (normal)basiclval.stype='X1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x94'^'
+    (LEX)TK_Integer=2 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Y2
+    (normal)basiclval.stype='Y2'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Y1
+    (normal)basiclval.stype='Y1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x94'^'
+    (LEX)TK_Integer=2 YYSTATE=3
+    Processing line 108!
+    (LEX)TK_Integer=2060 YYSTATE=0
+    (LEX)TK_For='FOR'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=I
+    (normal)basiclval.stype='I'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=1 YYSTATE=3
+    (LEX)TK_To='TO'
+    (LEX)TK_Integer=100 YYSTATE=3
+    Processing line 109!
+    (LEX)TK_Integer=2070 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=X1
+    (normal)basiclval.stype='X1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=X1
+    (normal)basiclval.stype='X1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=X3
+    (normal)basiclval.stype='X3'
+    Processing line 110!
+    (LEX)TK_Integer=2080 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Y1
+    (normal)basiclval.stype='Y1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Y1
+    (normal)basiclval.stype='Y1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Y3
+    (normal)basiclval.stype='Y3'
+    Processing line 111!
+    (LEX)TK_Integer=2090 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=X2
+    (normal)basiclval.stype='X2'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=X2
+    (normal)basiclval.stype='X2'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=X4
+    (normal)basiclval.stype='X4'
+    Processing line 112!
+    (LEX)TK_Integer=2100 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Y2
+    (normal)basiclval.stype='Y2'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Y2
+    (normal)basiclval.stype='Y2'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Y4
+    (normal)basiclval.stype='Y4'
+    Processing line 113!
+    (LEX)TK_Integer=2110 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=C
+    (normal)basiclval.stype='C'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x60'<'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=X2
+    (normal)basiclval.stype='X2'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=X1
+    (normal)basiclval.stype='X1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x94'^'
+    (LEX)TK_Integer=2 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Y2
+    (normal)basiclval.stype='Y2'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Y1
+    (normal)basiclval.stype='Y1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x94'^'
+    (LEX)TK_Integer=2 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=2130 YYSTATE=3
+    Processing line 114!
+    (LEX)TK_Integer=2120 YYSTATE=0
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=C
+    (normal)basiclval.stype='C'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=X2
+    (normal)basiclval.stype='X2'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=X1
+    (normal)basiclval.stype='X1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x94'^'
+    (LEX)TK_Integer=2 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Y2
+    (normal)basiclval.stype='Y2'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Y1
+    (normal)basiclval.stype='Y1'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x94'^'
+    (LEX)TK_Integer=2 YYSTATE=3
+    Processing line 115!
+    (LEX)TK_Integer=2130 YYSTATE=0
+    (LEX)TK_Next='NEXT'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=I
+    (normal)basiclval.stype='I'
+    Processing line 116!
+    (LEX)TK_Integer=2140 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=H
+    (normal)basiclval.stype='H'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=H
+    (normal)basiclval.stype='H'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    (LEX)TK_Integer=1 YYSTATE=3
+    Processing line 117!
+    (LEX)TK_Integer=2150 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=C
+    (normal)basiclval.stype='C'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x62'>'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=T
+    (normal)basiclval.stype='T'
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=1500 YYSTATE=3
+    Processing line 118!
+    (LEX)TK_Integer=2160 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 119!
+    (LEX)TK_Integer=2170 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 120!
+    (LEX)TK_Integer=2180 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"**********"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="**********"
+    Processing line 121!
+    (LEX)TK_Integer=2190 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"* GOT YA *"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="* GOT YA *"
+    Processing line 122!
+    (LEX)TK_Integer=2200 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"**********"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="**********"
+    Processing line 123!
+    (LEX)TK_Integer=2210 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 124!
+    (LEX)TK_Integer=2220 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 125!
+    (LEX)TK_Integer=2230 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Processing line 126!
+    (LEX)TK_Integer=2240 YYSTATE=0
+    (LEX)TK_Stop='STOP'
+    Processing line 127!
+    (LEX)TK_Integer=2250 YYSTATE=0
+    Processing line 128!
+    (LEX)TK_Integer=2260 YYSTATE=0
+    Processing line 129!
+    (LEX)TK_Integer=2270 YYSTATE=0
+    Processing line 130!
+    (LEX)TK_Integer=2280 YYSTATE=0
+    (LEX)TK_If='IF'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Z
+    (normal)basiclval.stype='Z'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x60'<'
+    (LEX)TK_Integer=0 YYSTATE=3
+    (LEX)TK_Then='THEN'
+    (LEX)TK_Integer=2310 YYSTATE=3
+    Processing line 131!
+    (LEX)TK_Integer=2290 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = '"'
+        yytext     = ' '
+        LastToken  = '303'
+        printfield = 1
+        yytext     = '"+"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="+"
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Processing line 132!
+    (LEX)TK_Integer=2300 YYSTATE=0
+    (LEX)TK_Goto='GOTO'
+    (LEX)TK_Integer=2330 YYSTATE=3
+    Processing line 133!
+    (LEX)TK_Integer=2310 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+        printfield = 1
+        yytext     = '"-"'
+        LastToken  = '303'
+    (LEX)TK_QuoteString(PRINTSTMT)="-"
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Processing line 134!
+    (LEX)TK_Integer=2320 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Z
+    (normal)basiclval.stype='Z'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Z
+    (normal)basiclval.stype='Z'
+    Processing line 135!
+    (LEX)TK_Integer=2330 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Z
+    (normal)basiclval.stype='Z'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=INT
+    (normal)basiclval.stype='INT'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Z
+    (normal)basiclval.stype='Z'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x43'+'
+    (LEX)TK_Float=0.5
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 136!
+    (LEX)TK_Integer=2340 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_SName(normal1)=S$
+    (normal)basiclval.stype='S$'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_QuoteString='"0123456789"'
+    Processing line 137!
+    (LEX)TK_Integer=2350 YYSTATE=0
+    (LEX)TK_For='FOR'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=I
+    (normal)basiclval.stype='I'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    (LEX)TK_Integer=1 YYSTATE=3
+    (LEX)TK_To='TO'
+    (LEX)TK_Integer=4 YYSTATE=3
+    Processing line 138!
+    (LEX)TK_Integer=2360 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=W
+    (normal)basiclval.stype='W'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=INT
+    (normal)basiclval.stype='INT'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Z
+    (normal)basiclval.stype='Z'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x47'/'
+    (LEX)TK_Integer=10 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x94'^'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    (LEX)TK_Integer=4 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=I
+    (normal)basiclval.stype='I'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 139!
+    (LEX)TK_Integer=2370 YYSTATE=0
+    (LEX)TK_Print='PRINT'
+    Got some space characters in a print line.
+        printfield = 1
+        lc         = 'M'
+        yytext     = ' '
+        LastToken  = '303'
+    (LEX)TK_SName(PrintStmt)=MID$
+        printfield = 2
+        yytext     = '('
+        LastToken  = '295'
+    (LEX)NOTYPE<PrintStmt:(>='('
+    (LEX)TK_SName(PrintStmt)=S$
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x44','
+    (LEX)TK_Name(PrintStmt)=W
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x43'+'
+    (LEX)TK_Integer(PrintStmt)=1
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x44','
+    (LEX)TK_Integer(PrintStmt)=1
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x41')'
+    (LEX)NOTYPE<INITIAL>(.)=(1)0x59';'
+    Processing line 140!
+    (LEX)TK_Integer=2380 YYSTATE=0
+    (LEX)TK_Let='LET'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Z
+    (normal)basiclval.stype='Z'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x61'='
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=Z
+    (normal)basiclval.stype='Z'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=W
+    (normal)basiclval.stype='W'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x42'*'
+    (LEX)TK_Integer=10 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x94'^'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x40'('
+    (LEX)TK_Integer=4 YYSTATE=3
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x45'-'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=I
+    (normal)basiclval.stype='I'
+    Next State=CMD (still)
+    (LEX)NOTYPE<CMD>(.)=(1)0x41')'
+    Processing line 141!
+    (LEX)TK_Integer=2390 YYSTATE=0
+    (LEX)TK_Next='NEXT'
+    isym=-1 name='(null)' sz=0 token=0
+    (LEX)TK_Name(normal6)=I
+    (normal)basiclval.stype='I'
+    Processing line 142!
+    (LEX)TK_Integer=2400 YYSTATE=0
+    (LEX)TK_Return='RETURN'
+    Processing line 143!
+    (LEX)TK_Integer=2410 YYSTATE=0
+    (LEX)TK_End='END'
+    Processing line 144!
+    Sorting Symbols ...
+    Grab Labels ...
+    Update Vars ...
+    Mark All Routines ...
+    Display Initial Code ...
+    TStatement::_RtnCount-1=2
+    Fixup targets that are on comments.
+    FixupTargets() stmt:'1000	PRINT"DO YOU WANT INSTRUCTIONS :";'
+    FixupTargets() stmt:'1010	INPUT A$'
+    FixupTargets() stmt:'1020	IF MID$(A$,1,1)="N" THEN 1220'
+    FixupTargets() stmt:'1030	IF MID$(A$,1,1)="n" THEN 1220'
+    FixupTargets() stmt:'1040	PRINT'
+    FixupTargets() stmt:'1050	PRINT'
+    FixupTargets() stmt:'1060	PRINT"    This is the game of RABBIT.  The object of RABBIT is"'
+    FixupTargets() stmt:'1070	PRINT"to come within a certian distance of the computer controlled"'
+    FixupTargets() stmt:'1080	PRINT"rabbit, which also moves.  "'
+    FixupTargets() stmt:'1090	PRINT"    The way you do this is to hop around (the rabbit hops too) "'
+    FixupTargets() stmt:'1100	PRINT"such that your path crosses the rabbit's path at the same time"'
+    FixupTargets() stmt:'1110	PRINT"Or in other words you come close enough to grab the little "'
+    FixupTargets() stmt:'1120	PRINT"booger.  "'
+    FixupTargets() stmt:'1130	PRINT"    Oh by the way your arms are about 20 units long.  The number"'
+    FixupTargets() stmt:'1140	PRINT"'CLOSEST APPROACH' is the closest distance you and your bouncy"'
+    FixupTargets() stmt:'1150	PRINT"friend came to each other during the last hop.  The 'DISTANCE"'
+    FixupTargets() stmt:'1160	PRINT"TO RABBIT' is the distance you are from the rabbit now.  The"'
+    FixupTargets() stmt:'1170	PRINT"rabbits 'DIRECTION' is the direction he is just about to hop,"'
+    FixupTargets() stmt:'1180	PRINT"so keep that in mind when jumping.  The computer will prompt"'
+    FixupTargets() stmt:'1190	PRINT"you for the direction you want to jump next.  Remember "'
+    FixupTargets() stmt:'1200	PRINT"you and the rabbit don't necessarily jump at the same velocity."'
+    FixupTargets() stmt:'1210	PRINT"   GOOD LUCK"'
+    FixupTargets() stmt:'1220	PRINT'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1230	PRINT"                   TYPE 'QUIT' TO STOP."'
+    FixupTargets() stmt:'1240	PRINT'
+    FixupTargets() stmt:'1250	RANDOMIZE'
+    FixupTargets() stmt:'1260	REM -- ( `.T` IS THE SQUARE OF THE CAPTURE DISTANCE ) --'
+    FixupTargets() stmt:'1270	LET T = 400'
+    FixupTargets() stmt:'1280	REM'
+    FixupTargets() stmt:'1290	REM -- INITIALIZE VELOCITIES AND POSITIONS --'
+    FixupTargets() stmt:'1300	REM'
+    FixupTargets() stmt:'1310	LET V1 = INT(RND(0)*10+0.5)*10+50'
+    FixupTargets() stmt:'1320	LET V2 = (INT(RND(0)*2+0.5)+1)*V1'
+    FixupTargets() stmt:'1330	LET X1 = (INT(RND(0)*400)+100)*SGN(RND(0)-0.5)'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1340	LET Y1 = (INT(RND(0)*400)+100)*SGN(RND(0)-0.5)'
+    FixupTargets() stmt:'1350	IF Y1 = 0  THEN 1330'
+    FixupTargets() stmt:'1360	IF X1 = 0 THEN 1330'
+    FixupTargets() stmt:'1370	LET X2 = 0'
+    FixupTargets() stmt:'1380	LET Y2 = 0'
+    FixupTargets() stmt:'1390	PRINT"SPEEDS (UNITS/HOP):"'
+    FixupTargets() stmt:'1400	PRINT"RABBIT -";V1,"YOU -";V2'
+    FixupTargets() stmt:'1410	PRINT'
+    FixupTargets() stmt:'1420	PRINT'
+    FixupTargets() stmt:'1430	PRINT'
+    FixupTargets() stmt:'1440	LET C = (X2-X1)^2+(Y2-Y1)^2'
+    FixupTargets() stmt:'1450	LET P1 = 3.14159/180'
+    FixupTargets() stmt:'1460	LET H1 = 1'
+    FixupTargets() stmt:'1470	REM'
+    FixupTargets() stmt:'1480	REM -- PRINT OUT --'
+    FixupTargets() stmt:'1490	REM'
+    FixupTargets() stmt:'1500	LET D1 = INT(RND(0)*359)'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1510	PRINT"HOP#: ";'
+    FixupTargets() stmt:'1520	LET Z = H'
+    FixupTargets() stmt:'1530	GOSUB 2330'
+    FixupTargets() stmt:'1540	PRINT"    DISTANCE TO RABBIT: ";'
+    FixupTargets() stmt:'1550	LET Z = SQR((X2-X1)^2+(Y2-Y1)^2)'
+    FixupTargets() stmt:'1560	GOSUB 2330'
+    FixupTargets() stmt:'1570	PRINT"    CLOSEST APPROACH: ";'
+    FixupTargets() stmt:'1580	LET Z = SQR(C)'
+    FixupTargets() stmt:'1590	GOSUB 2330'
+    FixupTargets() stmt:'1600	PRINT'
+    FixupTargets() stmt:'1610	PRINT"RABBIT   ---    POSITION:  (";'
+    FixupTargets() stmt:'1620	LET Z = X1'
+    FixupTargets() stmt:'1630	GOSUB 2280'
+    FixupTargets() stmt:'1640	PRINT",";'
+    FixupTargets() stmt:'1650	LET Z = Y1'
+    FixupTargets() stmt:'1660	GOSUB 2280'
+    FixupTargets() stmt:'1670	PRINT")     AND DIRECTION:  ";'
+    FixupTargets() stmt:'1680	LET Z = D1'
+    FixupTargets() stmt:'1690	GOSUB 2330'
+    FixupTargets() stmt:'1700	PRINT'
+    FixupTargets() stmt:'1710	PRINT"YOU      ---    POSITION:  (";'
+    FixupTargets() stmt:'1720	LET Z = X2'
+    FixupTargets() stmt:'1730	GOSUB 2280'
+    FixupTargets() stmt:'1740	PRINT",";'
+    FixupTargets() stmt:'1750	LET Z = Y2'
+    FixupTargets() stmt:'1760	GOSUB 2280'
+    FixupTargets() stmt:'1770	PRINT")     AND DIRECTION: ";'
+    FixupTargets() stmt:'1780	GOTO 1800'
+    FixupTargets() stmt:'1790	PRINT "DIRECTION TO HOP (0-359 DEGREES): ";'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1800	INPUT A$'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1810	DIM A(15)'
+    FixupTargets() stmt:'1820	LET A(1)=A(2)=A(3)=A(4)=A(5)=D2=0'
+    FixupTargets() stmt:'1830	CHANGE A$ TO A'
+    FixupTargets() stmt:'1840	FOR I = 1 TO 15'
+    FixupTargets() stmt:'1850	    IF A(I) = 0 THEN 1910'
+    FixupTargets() stmt:'1859	    IF A(I) =113 THEN 2240'
+    FixupTargets() stmt:'1860	    IF A(I) = 81 THEN 2240'
+    FixupTargets() stmt:'1870	    IF A(I)-48 < 0 THEN 1790'
+    FixupTargets() stmt:'1880	    IF A(I)-48 > 9 THEN 1790'
+    FixupTargets() stmt:'1890	NEXT I'
+    FixupTargets() stmt:'1900	GO TO 1790'
+    FixupTargets() stmt:'1910	FOR J = 1 TO I-1'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'1920	    D2=D2+(A(I-J)-48)*10^(J-1)'
+    FixupTargets() stmt:'1930	NEXT J'
+    FixupTargets() stmt:'1940	IF D2 < 0 THEN 1790'
+    FixupTargets() stmt:'1950	IF D2 >= 360 THEN 1790'
+    FixupTargets() stmt:'1960	PRINT'
+    FixupTargets() stmt:'1970	PRINT'
+    FixupTargets() stmt:'1980	REM'
+    FixupTargets() stmt:'1990	REM -- COMPUTE PATHS AND SEE IF THEY INTERSECT --'
+    FixupTargets() stmt:'2000	REM'
+    FixupTargets() stmt:'2010	LET X3 = V1*COS(D1*P1)/100'
+    FixupTargets() stmt:'2020	LET Y3 = V1*SIN(D1*P1)/100'
+    FixupTargets() stmt:'2030	LET X4 = V2*COS(D2*P1)/100'
+    FixupTargets() stmt:'2040	LET Y4 = V2*SIN(D2*P1)/100'
+    FixupTargets() stmt:'2050	LET C = (X2-X1)^2+(Y2-Y1)^2'
+    FixupTargets() stmt:'2060	FOR I = 1 TO 100'
+    FixupTargets() stmt:'2070	    LET X1 = X1+X3'
+    FixupTargets() stmt:'2080	    LET Y1 = Y1+Y3'
+    FixupTargets() stmt:'2090	    LET X2 = X2+X4'
+    FixupTargets() stmt:'2100	    LET Y2 = Y2+Y4'
+    FixupTargets() stmt:'2110	    IF C < (X2-X1)^2+(Y2-Y1)^2 THEN 2130'
+    FixupTargets() stmt:'2120	    C = (X2-X1)^2+(Y2-Y1)^2'
+    FixupTargets() stmt:'2130	NEXT I'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'2140	LET H = H+1'
+    FixupTargets() stmt:'2150	IF C > T THEN 1500'
+    FixupTargets() stmt:'2160	PRINT'
+    FixupTargets() stmt:'2170	PRINT'
+    FixupTargets() stmt:'2180	PRINT"**********"'
+    FixupTargets() stmt:'2190	PRINT"* GOT YA *"'
+    FixupTargets() stmt:'2200	PRINT"**********"'
+    FixupTargets() stmt:'2210	PRINT'
+    FixupTargets() stmt:'2220	PRINT'
+    FixupTargets() stmt:'2230	PRINT'
+    FixupTargets() stmt:'2240	STOP'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'2250	REM'
+    FixupTargets() stmt:'2260	REM -- CONVERT NUMBERS TO STRINGS FOR CLEANER OUTPUT --'
+    FixupTargets() stmt:'2270	REM'
+    FixupTargets() stmt:'2280	IF Z < 0 THEN 2310'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'2290	PRINT "+";'
+    FixupTargets() stmt:'2300	GOTO 2330'
+    FixupTargets() stmt:'2310	PRINT"-";'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'2320	LET Z = -Z'
+    FixupTargets() stmt:'2330	LET Z = INT(Z+0.5)'
+      Target is GOSUB or GOTO
+    FixupTargets() stmt:'2340	LET S$ = "0123456789"'
+    FixupTargets() stmt:'2350	FOR I = 1 TO 4'
+    FixupTargets() stmt:'2360	    LET W = INT(Z/10^(4-I))'
+    FixupTargets() stmt:'2370	    PRINT MID$(S$,W+1,1);'
+    FixupTargets() stmt:'2380	    LET Z = Z-W*10^(4-I)'
+    FixupTargets() stmt:'2390	NEXT I'
+    FixupTargets() stmt:'2400	RETURN'
+    FixupTargets() stmt:'2410	END'
+    Finished FixupTargets
+    Split Overlapping Subroutines ...
+    Straighten Overlapping Subroutines ...
+    Renumber Source ...
+    Display Empty Code Ranges ...
+    Display Symbol Table ...
+    Display of final 'clean' BASIC listing ...
+    TStatement::_RtnCount-1=2
+    Finished!!!
+<--- int main(int, char**) /media/Infinity/dev/BasicGames/b2c/b2c.cpp[2210]
